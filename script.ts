@@ -15,3 +15,23 @@ variabile = 'Giovanni' // !ATTENZIONE! Se dichiaro una variabile di tipo null sa
 let obj = {nome : 'giovanni'}; // ATTENZIONE! REFERENCIES!
 
 
+
+
+
+class Random {
+
+	numero: number;
+
+	constructor(numero: number) {
+		this.numero = numero;
+	}
+
+	getRandom() {
+		return (Math.random()) * this.numero;
+	}
+}
+
+let r = new Random(10);
+console.log(r.getRandom());
+
+
