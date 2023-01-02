@@ -12,13 +12,13 @@ let coniugato: boolean = true;
 let variabile: null;
 variabile = 'Giovanni' // !ATTENZIONE! Se dichiaro una variabile di tipo null sarà null per tutto il blocco di codice, uguale con undefinded
 
-let obj = {nome : 'giovanni'}; // ATTENZIONE! REFERENCIES!
+
+
+// 
 
 
 
-
-
-class Random {
+ class Random {
 
 	numero: number;
 
