@@ -15,8 +15,8 @@ variabile = 'Giovanni' // !ATTENZIONE! Se dichiaro una variabile di tipo null sa
 
 
 // 
-
-
+const b = document.getElementById('container')
+b?.innerHTML = 'giovanni'
 
  class Random {
 
